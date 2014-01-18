@@ -6,9 +6,11 @@ build: [
   [make "install"]
 ]
 remove: [["ocamlfind" "remove" "lwt"]]
-depends: ["ocamlfind"]
-depopts: [
+depends: [
+  "ocamlfind"
   "oasis"
+]
+depopts: [
   "base-threads"
   "base-unix"
   "conf-libev"
