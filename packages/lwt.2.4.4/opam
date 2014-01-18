@@ -8,6 +8,7 @@ build: [
 remove: [["ocamlfind" "remove" "lwt"]]
 depends: ["ocamlfind"]
 depopts: [
+  "oasis"
   "base-threads"
   "base-unix"
   "conf-libev"
